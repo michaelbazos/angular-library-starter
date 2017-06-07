@@ -1,14 +1,17 @@
 # ui-toolkit
 
-A library of UI components for your Angular 2 application.
+A library of UI components for your Angular 2 applications. Compliant with the [Angular Package Format v4.0](https://goo.gl/AMOU5G).
 
-Compliant with the [Angular Package Format v4.0](https://goo.gl/AMOU5G).
+## Features
+
+ - Generation to various module formats: FESM15, FESM5, UMD
+ - Type definitions
+ - Metadata for AOT compilation
 
 ## Getting started
 
 1. Install the library
 
-  With npm: 
   ```
   npm install ui-toolkit --save   // --save is implicit as of npm 5.0
   ```
