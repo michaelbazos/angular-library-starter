@@ -1,0 +1,30 @@
+{
+  "name": "ui-toolkit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelbazos/ui-toolkit"
+  },
+  "author": {
+    "name": "Michael Bazos",
+    "email": "micabazos@gmail.com"
+  },
+  "keywords": [
+    "angular2",
+    "angular",
+    "2",
+    "ui",
+    "components",
+    "library"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelbazos/ui-toolkit/issues"
+  },
+  "peerDependencies": {
+    "@angular/core": ">= 4.0.0 < 5.0.0"
+  },
+  "main": "bundles/ui-toolkit.umd.js",
+  "module": "ui-toolkit.es5.js",
+  "es2015": "ui-toolkit.js",
+  "typings": "ui-toolkit.d.ts"
+}
