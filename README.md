@@ -1,6 +1,6 @@
-# ui-toolkit
+# angular-library-starter
 
-A library of UI components for your Angular 2 applications. Compliant with the [Angular Package Format v4.0](https://goo.gl/AMOU5G).
+This project is an implementation of [Angular Package Format v4.0](https://goo.gl/AMOU5G), so as to build library of components for angular applications. As a consequence, the library can be consumed in various ways, e.g. from apps using Webpack, from apps using SystemJS, from a jsfiddle, a plunkr, etc.
 
 ## Features
 
@@ -12,9 +12,11 @@ A library of UI components for your Angular 2 applications. Compliant with the [
 
 1. Install the library
 
+  ```sh
+  npm install ui-toolkit --save
   ```
-  npm install ui-toolkit --save   // --save is implicit as of npm 5.0
-  ```
+  
+Note that `--save` argument is implicit as of npm5.
 
 2. Import it in your application
 
