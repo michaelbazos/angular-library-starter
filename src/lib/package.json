@@ -1,8 +1,8 @@
 {
-  "name": "ui-toolkit",
+  "name": "mylib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/michaelbazos/ui-toolkit"
+    "url": "https://github.com/michaelbazos/angular-library-starter"
   },
   "author": {
     "name": "Michael Bazos",
@@ -18,13 +18,13 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaelbazos/ui-toolkit/issues"
+    "url": "https://github.com/michaelbazos/angular-library-starter/issues"
   },
   "peerDependencies": {
     "@angular/core": ">= 4.0.0 < 5.0.0"
   },
-  "main": "bundles/ui-toolkit.umd.js",
-  "module": "ui-toolkit.es5.js",
-  "es2015": "ui-toolkit.js",
-  "typings": "ui-toolkit.d.ts"
+  "main": "bundles/mylib.umd.js",
+  "module": "mylib.es5.js",
+  "es2015": "mylib.js",
+  "typings": "mylib.d.ts"
 }

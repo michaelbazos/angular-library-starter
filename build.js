@@ -11,7 +11,7 @@ const ngc = require('@angular/compiler-cli/src/main').main;
 
 const camelcase = require('camelcase');
 const log = console.log;
-const pkg = require('./package.json');
+const pkg = require('./src/lib/package.json');
 
 const rollup = require('rollup');
 const sourcemaps = require('rollup-plugin-sourcemaps');

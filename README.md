@@ -10,19 +10,37 @@ This project is an implementation of [Angular Package Format v4.0](https://goo.g
 
 ## Getting started
 
-1. Install the library
+1. Clone the library
 
   ```sh
-  npm install ui-toolkit --save
+  git clone https://github.com/michaelbazos/angular-library-starter.git
   ```
   
-Note that `--save` argument is implicit as of npm5.
+2. Install dependencies and build the library
 
-2. Import it in your application
+  ```sh
+  cd angular-library-starter
+  npm install
+  npm run build
+  ```
+  
+3. Add the built library as dependency to your application
+
+From your consumer application folder:
+
+  ```sh
+  npm install ../angular-library-starter/dist --save
+  ```
+  
+  Adjust the path to the _dist_ folder accordingly.
+  
+  Note 1: this installation refers to a local folder. Once you're done you should publish your library to a package manager.
+  Note 2: Argument `--save` is implicit as of npm5
+  
+4. Import the library in the application
 
   ```ts
-  // Import the desired module from ui-toolkit library
-  import { SampleModule } from 'ui-toolkit';
+  import { MylibModule } from 'mylib';
    
   @NgModule({
     declarations: [
@@ -31,19 +49,19 @@ Note that `--save` argument is implicit as of npm5.
     imports: [
       ... ,
    
-      SampleModule
+      MylibModule
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [ AppComponent ]
   })
   
   export class AppModule { }
   ```
 
-3. Use it
+5. Use the components
 
   ```html
-  <sample-component></sample-component>
+  <ui-dropdown></ui-dropdown>
   ```
 
 ## License

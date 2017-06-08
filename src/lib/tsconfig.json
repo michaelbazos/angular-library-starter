@@ -19,8 +19,8 @@
   "angularCompilerOptions": {
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
-    "flatModuleOutFile": "ui-toolkit.js",
-    "flatModuleId": "ui-toolkit",
+    "flatModuleOutFile": "mylib.js",
+    "flatModuleId": "mylib",
     "skipTemplateCodegen": true
   }
 }

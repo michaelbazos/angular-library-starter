@@ -6,4 +6,4 @@ import { DropdownComponent } from './dropdown/dropdown.component';
   declarations: [ DropdownComponent ],
   exports: [ DropdownComponent ]
 })
-export class UiToolkitModule { }
+export class MylibModule { }
