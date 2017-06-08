@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",                       /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
+    "module": "es2015",
+    "lib": [ "es2015", "dom" ],
     "declaration": true,                   /* Generates corresponding '.d.ts' file. */
     "outDir": "../../build/es5",           /* Redirect output structure to the directory. */
     "rootDir": ".",                        /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
